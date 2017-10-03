@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+        <title>Defensive Coding for Dummies</title>
+
+        <link rel="stylesheet" href="css/reveal.css">
+        <link rel="stylesheet" href="css/theme/black.css">
+
+        <!-- Theme used for syntax highlighting of code -->
+        <link rel="stylesheet" href="lib/css/zenburn.css">
+
+        <!-- Printing and PDF exports -->
+        <script>
+            var link = document.createElement( 'link' );
+            link.rel = 'stylesheet';
+            link.type = 'text/css';
+            link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+            document.getElementsByTagName( 'head' )[0].appendChild( link );
+        </script>
+    </head>
+    <body>
+        <div class="reveal">
+            <div class="slides">
+                <section>Good Morning!</section>
+
+                <section>I'm Chad</section>
+                <section>
+                    <p>AKA Chadicus</p>
+                    <img src="https://avatars1.githubusercontent.com/u/1182337?v=3&s=466" />
+                </section>
+                <section>
+                    I like PHP
+                    <aside class="notes">
+                        All code examples will be in PHP
+                    </aside>
+                </section>
+                <section>I also like the Hulk</section>
+                <section>
+                    I helped create DE DevCon
+                    <aside class="notes">
+                        You're not here for me.
+                    </aside>
+                </section>
+                <section><h1>Dependency Injection</h1></section>
+                <section>
+                    First Slide
+                    <aside class="notes">
+                        <ul>
+                            <li>Notes</li>
+                            <li>Notes</li>
+                            <li>Notes</li>
+                        <ul>
+                    </asid>
+                </section>
+            </div>
+        </div>
+
+        <script src="lib/js/head.min.js"></script>
+        <script src="js/reveal.js"></script>
+
+        <script>
+            // More info https://github.com/hakimel/reveal.js#configuration
+            Reveal.initialize({
+                history: true,
+
+                // More info https://github.com/hakimel/reveal.js#dependencies
+                dependencies: [
+                    { src: 'plugin/markdown/marked.js' },
+                    { src: 'plugin/markdown/markdown.js' },
+                    { src: 'plugin/notes/notes.js', async: true },
+                    { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+                ]
+            });
+        </script>
+    </body>
+</html>
